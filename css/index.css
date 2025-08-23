@@ -1,0 +1,46 @@
+:root {
+  --background-color: #eeebd3;
+  --primary-color: #255957;
+  --secondary-color: #075985;
+  --lower-nav-color: #437c90;
+  --text-color: #333;
+  --font-family: 'Arial', sans-serif;
+  --font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.premium-brands h1 {
+  text-align: center;
+}
+
+.premium-brand-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+  align-items: stretch;
+  align-content: space-around;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-body {
+  text-align: center;
+  
+}
+
+
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+}
